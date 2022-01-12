@@ -1,16 +1,17 @@
 import React from 'react';
 import {Container} from 'reactstrap';
+import TaskIndex from './TaskIndex';
 
 const ToDo = () => {
   return(
     <Container className="App">
      <br />
        <h1 className="App-intro">
-     In this challenge your goal is to create a to do list: 
+     {/* In this challenge your goal is to create a to do list:  */}
        </h1>
        <hr />
        <ul>
-         <li>
+         {/* <li>
            ability to accept a task from a user
          </li>
          <li>
@@ -21,9 +22,10 @@ const ToDo = () => {
          </li>
          <li>
             ability to evaluated if a task was completed and update the state
-         </li>
-       </ul>
-       <hr />
+         </li> */}
+       </ul> 
+      <hr />
+       <TaskIndex />
      </Container>
   );
 };
